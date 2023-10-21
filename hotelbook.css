@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f5f5f5; */
+    background-image: url("./Images/hotelbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#uni-booking {
+    background-color:#a5ecfe;
+    opacity: 0.8;
+    width: 860px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #000;
+    margin-top: 20px;
+    position: absolute;
+    left: 19%;
+    top: 10%;
+  
+}
+
+.text-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ h2 {
+    color: #000;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+}
+.request-form{
+    height: 425px;
+    margin-left: 10px;
+
+}
+
+.request-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.request-form input[type="text"],
+.request-form input[type="email"],
+.request-form input[type="number"],
+.request-form select,
+.request-form textarea {
+    width: 92%;
+    padding: 7px;
+    margin-bottom: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: #87dffa;
+    color: #000;
+    transform: translateY(-2px);
+    font-size: 17px;
+}
+
+.request-form input[type="datetime-local"] {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: #87dffa;
+}
+
+.request-form select,
+.request-form textarea {
+    height: 45px;
+    width: 92%;
+}
+
+.request-form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="6" fill="%23009688"><path d="M6 6L0 0h12z"/></svg>');
+    background-size: 12px 6px;
+    background-position: center right;
+    background-repeat: no-repeat;
+
+}
+
+.requestbtn {
+    background-color: #59a9d6;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.requestbtn:hover {
+    background-color: #1485a7;
+    transform: translateY(-2px);
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-column {
+    flex: 1;
+    margin-right: 10px;
+}

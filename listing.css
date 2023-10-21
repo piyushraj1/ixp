@@ -1,0 +1,86 @@
+body {
+    background-image: url("./Images/listing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    padding: 50px 0;
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+#service-request{
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    overflow-x: hidden;
+}
+
+.request-form {
+    max-width: 400px;
+    height: 500px;;  
+    background-color: #ccc;
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-left: 180px;
+}
+form{
+    margin-top: 32%;
+}
+.title-text{
+    width: 100%;
+    text-align: center;
+    color: #0a8670;
+    font-size: 16px;
+    position: absolute;
+    top: 6%;
+    left: 14%;
+}
+.title-text img{
+    width: 350px;
+    height: 61px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: #0a8670;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 2px solid #0a8670;
+    border-radius: 3px;
+    font-size: 19px;
+    color:#52ad9c;
+    
+   
+}
+
+button.requestbtn {
+    background-color: #52ad9c;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-left: 22%;
+}
+
+button.requestbtn:hover {
+    background-color: #328072;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+}

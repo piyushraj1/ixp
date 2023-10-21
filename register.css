@@ -1,0 +1,134 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #52ad9c;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 400px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #52ad9c;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 82%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #52ad9c;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+   margin-left: 22%;
+}
+
+input[type="submit"]:hover {
+    background-color: #3a897e;
+    cursor: pointer;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./Images/loginbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+h2 {
+    text-align: center;
+    color: #52ad9c;
+    font-size: 26px;
+}
+
+form {
+    background-color: #ccc;
+    
+    padding: 20px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 450px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #52ad9c;
+    margin-top: 15px;
+    transition: transform 0.3s; /* Add transition for smooth animation */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 82%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s; 
+    color: #52ad9c;
+    font-size: 16px;
+}
+
+/* Add a specific style for the label when the input field is in focus */
+input[type="text"]:focus + label,
+input[type="password"]:focus + label {
+    transform: translateY(-10px);
+    font-weight: normal;
+}
+
+input[type="submit"] {
+    background-color: #52ad9c;
+    color: #fff;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3a897e;
+    cursor: pointer;
+    transform: translateY(-3px);
+}
