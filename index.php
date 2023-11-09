@@ -156,7 +156,7 @@ if (!isset($_COOKIE['visit_count'])) {
                         <i class="fas fa-check-square"></i>
                     </div>
                     <div class="feature-text">
-                        <p>You can pre book your appointment from home according to your convenience.</p>
+                        <p>You can pre book your intment from home according to your convenience.</p>
                     </div>
                 </div>
 
