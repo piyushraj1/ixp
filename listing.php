@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $dbname = "users";
+        $dbname = "insane";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -49,26 +49,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
 </head>
 <body>
+<video id="video-background" autoplay muted loop>
+    <source src="./Images/listing.mp4" type="video/mp4"> 
+</video>
 <section id="service-request">
-    <div class="title-text">
-        <img src="./Images/logo2.png" alt="">
-        
-        <h2>Request Additional Services</h2>
-    </div>
-    <div class="request-form">
+     
+        <div class="request-form">
+        <h2>Services Description</h2>
         <form id="service-request-form" method="POST" action="listing.php">
-            <label for="name">Your Name:</label>
+            <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             
-            <label for="email">Your Email:</label>
+            <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="service-needed">Service You Want:</label>
+            <label for="service-needed">Services:</label>
             <input type="text" id="service-needed" name="services_needed" required></input>
 
-            <button type="submit" class="requestbtn">Submit Request</button>
+            <button type="submit" class="requestbtn">Send Us</button>
         </form>
     </div>
+   
 
 
 </section>
